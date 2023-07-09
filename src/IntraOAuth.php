@@ -60,7 +60,7 @@ class IntraOAuth extends OAuthWrapper
             'courses' => $user['cursus_users'],
             'projects' => $user['projects_users'],
             'expertises' => $user['expertises_users'],
-            'avatar' => $user['image_url'],
+            'avatar' => $user['image']['link'],
         ]);
 	}
 }
